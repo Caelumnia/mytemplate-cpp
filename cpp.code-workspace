@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "Root",
+			"path": "."
+		}
+	],
+	"settings": {
+		"clangd.arguments": [
+			"--background-index",
+			"--clang-tidy",
+			"--compile-commands-dir=${workspaceFolder}/.vscode"
+		],
+		"xmake.debugConfigType": "codelldb"
+	},
+	"extensions": {
+		"recommendations": [
+			"llvm-vs-code-extensions.vscode-clangd",
+			"vadimcn.vscode-lldb",
+			"tboox.xmake-vscode"
+		]
+	}
+}
